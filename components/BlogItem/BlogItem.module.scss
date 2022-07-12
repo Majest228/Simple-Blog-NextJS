@@ -1,0 +1,31 @@
+.item {
+	background-color: #fff;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.06);
+	border-radius: 10px;
+	padding: 16px;
+	margin-bottom: 15px;
+	h5 {
+		margin: 0;
+		margin-bottom: 10px;
+		text-transform: capitalize;
+		color: #333;
+		font-size: 20px;
+	}
+	p {
+		text-transform: capitalize;
+		color: #444;
+		font-size: 14px;
+	}
+	a {
+		background-color: #6b48ff;
+		text-decoration: none;
+		display: inline-block;
+		transition: background-color 0.4s ease;
+		border-radius: 20px;
+		padding: 8px 20px;
+		color: #fff;
+		&:hover {
+			background-color: darken(#6b48ff, 5%);
+		}
+	}
+}
